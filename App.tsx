@@ -4,6 +4,8 @@ import { Image, StyleSheet, Text, TextInput, View, ScrollView } from "react-nati
 // import sample from './samplePho.jpg'; 
 import SampleComponent from './SampleComponent';
 import StylingComponent from './StylingComponent';
+import FlexBox from './FlexBox';
+import PositionComponent from './PositionComponent';
 
 //body
 //hanya bisa menampilkan 1 komponen yaitu app. dan dijadikan tempat utama atau main component
@@ -15,6 +17,8 @@ const App = () => {
       <ScrollView>
         <SampleComponent />
         <StylingComponent />
+        <FlexBox />
+        <PositionComponent/>
       </ScrollView>
     </View>
   ); 
