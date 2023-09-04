@@ -2,7 +2,23 @@ import React, { Component } from 'react';
 import { Image, Text, View } from 'react-native';
 
 class FlexBox extends Component {
+    constructor(props){
+        super(props);
+        console.log('ini adalah constructor');
+    }
+
+    componentDidMount(){
+        console.log("componentDidMount");
+    }
+
+    //did update tidak akan muncul di console jika tidak ada perubahan pemrosesan
+    componentDidUpdate(){
+        console.log('componentDidUpdate')
+    }
+
+
     render(){
+        console.log('Render');
         return (
             <View>
                 <View style={{ flexDirection: 'row', backgroundColor: 'grey', alignItems: 'center', justifyContent: 'space-evenly'}} >

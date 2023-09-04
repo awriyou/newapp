@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Image, StyleSheet, Text, TextInput, View, ScrollView } from "react-native"; 
-import sample from './samplePho.jpg'; 
+import sample from '../../assets/image/samplePho.jpg'; 
 
 //Mencoba Styling
 const StylingComponent = () => {
