@@ -8,6 +8,7 @@ import FlexBox from './pages/FlexBox';
 import PositionComponent from './pages/Position';
 import PropsDinamis from './pages/propsDinamis';
 import StateDinamis from './pages/stateDinamis';
+import Communication from './pages/communication';
 
 //body
 //hanya bisa menampilkan 1 komponen yaitu app. dan dijadikan tempat utama atau main component
@@ -30,7 +31,8 @@ const App = () => {
         {/* <FlexBox /> */}
         {/* <PositionComponent/> */}
         {/* <PropsDinamis /> */}
-        <StateDinamis />
+        {/* <StateDinamis /> */}
+        <Communication />
       </ScrollView>
     </View>
   ); 
