@@ -6,6 +6,7 @@ import SampleComponent from './pages/SampleComponent';
 import StylingComponent from './pages/StylingComponent';
 import FlexBox from './pages/FlexBox';
 import PositionComponent from './pages/Position';
+import PropsDinamis from './pages/propsDinamis';
 
 //body
 //hanya bisa menampilkan 1 komponen yaitu app. dan dijadikan tempat utama atau main component
@@ -25,8 +26,9 @@ const App = () => {
         {/* <SampleComponent /> */}
         {/* <StylingComponent /> */}
         {/* <FlexBox /> */}
-        {isShow && <FlexBox />}
+        {/* <FlexBox /> */}
         {/* <PositionComponent/> */}
+        <PropsDinamis />
       </ScrollView>
     </View>
   ); 
