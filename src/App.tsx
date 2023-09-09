@@ -9,6 +9,7 @@ import PositionComponent from './pages/Position';
 import PropsDinamis from './pages/propsDinamis';
 import StateDinamis from './pages/stateDinamis';
 import Communication from './pages/communication';
+import BasicJavascript from './pages/BasicJavascript';
 
 //body
 //hanya bisa menampilkan 1 komponen yaitu app. dan dijadikan tempat utama atau main component
@@ -32,7 +33,8 @@ const App = () => {
         {/* <PositionComponent/> */}
         {/* <PropsDinamis /> */}
         {/* <StateDinamis /> */}
-        <Communication />
+        {/* <Communication /> */}
+        <BasicJavascript />
       </ScrollView>
     </View>
   ); 
